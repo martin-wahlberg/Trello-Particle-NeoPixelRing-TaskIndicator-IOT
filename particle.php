@@ -1,5 +1,6 @@
 <?php
 
+//Keys and tokens to use the different apis.
 $trelloKey = "YOUR-TRELLO-API-KEY"
 $trelloTOKEN = "YOUR-TRELLO-API-TOKEN"
 $particleTOKEN = "YOUR-PARTICLE-TOKEN"
