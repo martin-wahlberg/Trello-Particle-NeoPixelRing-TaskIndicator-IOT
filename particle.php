@@ -25,7 +25,7 @@ $trelloNumber = count($trello_array);
 //Calling particle function
 $ch = curl_init();
 //Plus one because of troubles passing 1.
-$particleNumber = $trelloNumberNyoppg + 1;
+$particleNumber = $trelloNumber + 1;
 curl_setopt($ch, CURLOPT_URL, "https://api.particle.io/v1/devices/57002d000b51353335323535/TrelloComand");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, "arg=$particleNumber&access_token=$particleToken");
