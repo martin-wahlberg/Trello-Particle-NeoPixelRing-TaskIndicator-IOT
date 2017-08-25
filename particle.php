@@ -3,6 +3,7 @@
 $trelloKey = "YOUR-TRELLO-API-KEY"
 $trelloTOKEN = "YOUR-TRELLO-API-TOKEN"
 $particleTOKEN = "YOUR-PARTICLE-TOKEN"
+$listId = "YOUR-TRELLO-LIST-ID"
 
 //Gets new tasks
 $ch = curl_init();
